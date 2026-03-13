@@ -1,0 +1,58 @@
+{
+  "version": 1,
+  "updatedAt": "2026-03-13T00:00:00Z",
+  "ruDirectDomainCategories": [
+    "category-ru",
+    "yandex",
+    "mailru",
+    "vk"
+  ],
+  "ruDirectDomains": [
+    "gosuslugi.ru",
+    "nalog.gov.ru",
+    "mos.ru",
+    "sberbank.ru",
+    "tinkoff.ru",
+    "vtb.ru",
+    "gazprombank.ru",
+    "alfabank.ru",
+    "raiffeisen.ru",
+    "wildberries.ru",
+    "ozon.ru",
+    "avito.ru"
+  ],
+  "ruDirectIpRules": [
+    "geoip:ru",
+    "geoip:private"
+  ],
+  "foreignBlockedDomainCategories": [
+    "openai",
+    "meta"
+  ],
+  "foreignBlockedDomains": [
+    "chatgpt.com",
+    "chat.openai.com",
+    "openai.com",
+    "claude.ai",
+    "anthropic.com",
+    "gemini.google.com",
+    "bard.google.com",
+    "perplexity.ai",
+    "midjourney.com",
+    "notion.so",
+    "notion.site",
+    "linkedin.com",
+    "whatsapp.com",
+    "whatsapp.net",
+    "threads.net"
+  ],
+  "forceRuProxyDomains": [
+    "youtube.com",
+    "youtu.be",
+    "ytimg.com",
+    "googlevideo.com",
+    "youtubei.googleapis.com",
+    "youtube.googleapis.com"
+  ],
+  "blockQuic": true
+}
