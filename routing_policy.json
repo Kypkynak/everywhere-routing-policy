@@ -1,6 +1,6 @@
 {
-  "version": 16,
-  "updatedAt": "2026-03-14T13:15:00Z",
+  "version": 17,
+  "updatedAt": "2026-03-14T13:30:00Z",
   "ruDirectDomainCategories": [
     "category-ru",
     "yandex",
@@ -92,7 +92,14 @@
     "youtubei.googleapis.com",
     "youtube.googleapis.com",
     "discord.com",
-    "discord.gg"
+    "discord.gg",
+    "telegram.org",
+    "t.me",
+    "telegram.me",
+    "web.telegram.org",
+    "api.telegram.org",
+    "telegra.ph",
+    "tdesktop.com"
   ],
   "blockQuic": true
 }
