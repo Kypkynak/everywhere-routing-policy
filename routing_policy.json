@@ -1,6 +1,6 @@
 {
-  "version": 14,
-  "updatedAt": "2026-03-14T12:35:00Z",
+  "version": 15,
+  "updatedAt": "2026-03-14T12:50:00Z",
   "ruDirectDomainCategories": [
     "category-ru",
     "yandex",
@@ -37,7 +37,9 @@
     "vseinstrumenti.ru",
     "citilink.ru",
     "market.yandex.ru",
-    "sletat.ru"
+    "sletat.ru",
+    "dns-shop.ru",
+    "sportmaster.ru"
   ],
   "ruDirectIpRules": [
     "geoip:ru",
@@ -80,7 +82,9 @@
     "imgur.com",
     "twitch.tv",
     "kick.com",
-    "deviantart.com"
+    "deviantart.com",
+    "itch.io",
+    "tumblr.com"
   ],
   "forceRuProxyDomains": [
     "youtube.com",
