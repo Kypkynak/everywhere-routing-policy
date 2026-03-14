@@ -1,6 +1,6 @@
 {
-  "version": 13,
-  "updatedAt": "2026-03-14T12:20:00Z",
+  "version": 14,
+  "updatedAt": "2026-03-14T12:35:00Z",
   "ruDirectDomainCategories": [
     "category-ru",
     "yandex",
@@ -35,7 +35,9 @@
     "hh.ru",
     "sravni.ru",
     "vseinstrumenti.ru",
-    "citilink.ru"
+    "citilink.ru",
+    "market.yandex.ru",
+    "sletat.ru"
   ],
   "ruDirectIpRules": [
     "geoip:ru",
@@ -76,7 +78,9 @@
     "patreon.com",
     "pixiv.net",
     "imgur.com",
-    "twitch.tv"
+    "twitch.tv",
+    "kick.com",
+    "deviantart.com"
   ],
   "forceRuProxyDomains": [
     "youtube.com",
