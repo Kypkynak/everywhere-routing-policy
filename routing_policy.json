@@ -1,6 +1,6 @@
 {
-  "version": 15,
-  "updatedAt": "2026-03-14T12:50:00Z",
+  "version": 16,
+  "updatedAt": "2026-03-14T13:15:00Z",
   "ruDirectDomainCategories": [
     "category-ru",
     "yandex",
@@ -71,8 +71,6 @@
     "poe.com",
     "x.com",
     "twitter.com",
-    "discord.com",
-    "discord.gg",
     "reddit.com",
     "medium.com",
     "quora.com",
@@ -92,7 +90,9 @@
     "ytimg.com",
     "googlevideo.com",
     "youtubei.googleapis.com",
-    "youtube.googleapis.com"
+    "youtube.googleapis.com",
+    "discord.com",
+    "discord.gg"
   ],
   "blockQuic": true
 }
