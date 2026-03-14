@@ -1,6 +1,6 @@
 {
-  "version": 10,
-  "updatedAt": "2026-03-14T11:35:00Z",
+  "version": 11,
+  "updatedAt": "2026-03-14T11:50:00Z",
   "ruDirectDomainCategories": [
     "category-ru",
     "yandex",
@@ -29,7 +29,9 @@
     "kinopoisk.ru",
     "ok.ru",
     "cdek.ru",
-    "pochta.ru"
+    "pochta.ru",
+    "lamoda.ru",
+    "rutube.ru"
   ],
   "ruDirectIpRules": [
     "geoip:ru",
@@ -64,7 +66,9 @@
     "discord.com",
     "discord.gg",
     "reddit.com",
-    "medium.com"
+    "medium.com",
+    "quora.com",
+    "substack.com"
   ],
   "forceRuProxyDomains": [
     "youtube.com",
