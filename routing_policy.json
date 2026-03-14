@@ -1,6 +1,6 @@
 {
-  "version": 7,
-  "updatedAt": "2026-03-14T10:50:00Z",
+  "version": 8,
+  "updatedAt": "2026-03-14T11:05:00Z",
   "ruDirectDomainCategories": [
     "category-ru",
     "yandex",
@@ -23,7 +23,9 @@
     "megafon.ru",
     "mts.ru",
     "beeline.ru",
-    "tele2.ru"
+    "tele2.ru",
+    "drom.ru",
+    "2gis.ru"
   ],
   "ruDirectIpRules": [
     "geoip:ru",
@@ -52,7 +54,9 @@
     "copilot.microsoft.com",
     "character.ai",
     "cursor.com",
-    "poe.com"
+    "poe.com",
+    "x.com",
+    "twitter.com"
   ],
   "forceRuProxyDomains": [
     "youtube.com",
