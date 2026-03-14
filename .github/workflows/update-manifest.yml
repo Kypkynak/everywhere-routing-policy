@@ -1,0 +1,59 @@
+name: Update routing manifest
+
+on:
+  push:
+    paths:
+      - "routing_policy.json"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-manifest:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Generate manifest from routing policy
+        shell: bash
+        run: |
+          python <<'PY'
+          import hashlib
+          import json
+          import os
+          from pathlib import Path
+
+          policy_path = Path("routing_policy.json")
+          manifest_path = Path("manifest.json")
+
+          content_bytes = policy_path.read_bytes()
+          policy = json.loads(content_bytes.decode("utf-8"))
+          sha256 = hashlib.sha256(content_bytes).hexdigest()
+          repo = os.environ["GITHUB_REPOSITORY"]
+
+          manifest = {
+              "version": policy["version"],
+              "updatedAt": policy["updatedAt"],
+              "policyUrl": f"https://raw.githubusercontent.com/{repo}/main/routing_policy.json",
+              "sha256": sha256,
+          }
+
+          manifest_path.write_text(json.dumps(manifest, indent=2) + "\n", encoding="utf-8")
+          PY
+
+      - name: Commit manifest changes
+        shell: bash
+        run: |
+          if git diff --quiet -- manifest.json; then
+            echo "manifest.json is already up to date"
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add manifest.json
+          git commit -m "Update manifest for routing policy"
+          git push
