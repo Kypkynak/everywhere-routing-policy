@@ -1,6 +1,6 @@
 {
-  "version": 11,
-  "updatedAt": "2026-03-14T11:50:00Z",
+  "version": 12,
+  "updatedAt": "2026-03-14T12:05:00Z",
   "ruDirectDomainCategories": [
     "category-ru",
     "yandex",
@@ -31,7 +31,9 @@
     "cdek.ru",
     "pochta.ru",
     "lamoda.ru",
-    "rutube.ru"
+    "rutube.ru",
+    "hh.ru",
+    "sravni.ru"
   ],
   "ruDirectIpRules": [
     "geoip:ru",
@@ -68,7 +70,9 @@
     "reddit.com",
     "medium.com",
     "quora.com",
-    "substack.com"
+    "substack.com",
+    "patreon.com",
+    "pixiv.net"
   ],
   "forceRuProxyDomains": [
     "youtube.com",
