@@ -1,6 +1,6 @@
 {
-  "version": 12,
-  "updatedAt": "2026-03-14T12:05:00Z",
+  "version": 13,
+  "updatedAt": "2026-03-14T12:20:00Z",
   "ruDirectDomainCategories": [
     "category-ru",
     "yandex",
@@ -33,7 +33,9 @@
     "lamoda.ru",
     "rutube.ru",
     "hh.ru",
-    "sravni.ru"
+    "sravni.ru",
+    "vseinstrumenti.ru",
+    "citilink.ru"
   ],
   "ruDirectIpRules": [
     "geoip:ru",
@@ -72,7 +74,9 @@
     "quora.com",
     "substack.com",
     "patreon.com",
-    "pixiv.net"
+    "pixiv.net",
+    "imgur.com",
+    "twitch.tv"
   ],
   "forceRuProxyDomains": [
     "youtube.com",
