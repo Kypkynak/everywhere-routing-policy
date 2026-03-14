@@ -1,6 +1,6 @@
 {
-  "version": 6,
-  "updatedAt": "2026-03-14T10:40:00Z",
+  "version": 7,
+  "updatedAt": "2026-03-14T10:50:00Z",
   "ruDirectDomainCategories": [
     "category-ru",
     "yandex",
@@ -21,7 +21,9 @@
     "ozon.ru",
     "avito.ru",
     "megafon.ru",
-    "mts.ru"
+    "mts.ru",
+    "beeline.ru",
+    "tele2.ru"
   ],
   "ruDirectIpRules": [
     "geoip:ru",
@@ -48,7 +50,9 @@
     "whatsapp.net",
     "threads.net",
     "copilot.microsoft.com",
-    "character.ai"
+    "character.ai",
+    "cursor.com",
+    "poe.com"
   ],
   "forceRuProxyDomains": [
     "youtube.com",
