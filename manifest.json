@@ -1,6 +1,6 @@
 {
-  "version": 10,
-  "updatedAt": "2026-03-14T11:35:00Z",
-  "policyUrl": "https://raw.githubusercontent.com/Kypkynak/everywhere-routing-policy/799adab2180343cd2ecf054141e6c5f43ace8cd6/routing_policy.json",
-  "sha256": "b541fcd488eb0c973de232f43d0a940313faa239f5502a42363c4bd3a5918127"
+  "version": 11,
+  "updatedAt": "2026-03-14T11:50:00Z",
+  "policyUrl": "https://raw.githubusercontent.com/Kypkynak/everywhere-routing-policy/main/routing_policy.json",
+  "sha256": "03917fc7a5bb63554dc340d51a4114eea279499ea28662e3cbe2a9717c81f605"
 }
