@@ -1,50 +1,6 @@
 {
-  "version": 20,
+  "version": 21,
   "updatedAt": "2026-03-14T14:20:00Z",
-  "ruDirectDomainCategories": [
-    "category-ru",
-    "yandex",
-    "mailru",
-    "vk"
-  ],
-  "ruDirectDomains": [
-    "gosuslugi.ru",
-    "nalog.gov.ru",
-    "mos.ru",
-    "sberbank.ru",
-    "tinkoff.ru",
-    "vtb.ru",
-    "gazprombank.ru",
-    "alfabank.ru",
-    "raiffeisen.ru",
-    "wildberries.ru",
-    "ozon.ru",
-    "avito.ru",
-    "megafon.ru",
-    "mts.ru",
-    "beeline.ru",
-    "tele2.ru",
-    "drom.ru",
-    "2gis.ru",
-    "kinopoisk.ru",
-    "ok.ru",
-    "cdek.ru",
-    "pochta.ru",
-    "lamoda.ru",
-    "rutube.ru",
-    "hh.ru",
-    "sravni.ru",
-    "vseinstrumenti.ru",
-    "citilink.ru",
-    "market.yandex.ru",
-    "sletat.ru",
-    "dns-shop.ru",
-    "sportmaster.ru"
-  ],
-  "ruDirectIpRules": [
-    "geoip:ru",
-    "geoip:private"
-  ],
   "foreignBlockedDomainCategories": [
     "openai",
     "meta"
