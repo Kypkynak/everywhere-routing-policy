@@ -1,5 +1,5 @@
 {
-  "version": 22,
+  "version": 23,
   "updatedAt": "2026-03-14T14:20:00Z",
   "foreignBlockedDomainCategories": [
     "openai",
@@ -50,7 +50,14 @@
     "kick.com",
     "deviantart.com",
     "itch.io",
-    "tumblr.com"
+    "tumblr.com",
+    "telegram.org",
+    "t.me",
+    "telegram.me",
+    "web.telegram.org",
+    "api.telegram.org",
+    "telegra.ph",
+    "tdesktop.com"
   ],
   "forceRuProxyDomains": [
     "2ip.ru",
@@ -62,13 +69,6 @@
     "youtube.googleapis.com",
     "discord.com",
     "discord.gg",
-    "telegram.org",
-    "t.me",
-    "telegram.me",
-    "web.telegram.org",
-    "api.telegram.org",
-    "telegra.ph",
-    "tdesktop.com"
   ],
   "blockQuic": true
 }
