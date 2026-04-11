@@ -1,12 +1,11 @@
 {
-  "version": 21,
+  "version": 22,
   "updatedAt": "2026-03-14T14:20:00Z",
   "foreignBlockedDomainCategories": [
     "openai",
     "meta"
   ],
   "foreignBlockedDomains": [
-    "2ip.ru",
     "chatgpt.com",
     "chat.openai.com",
     "openai.com",
@@ -54,6 +53,7 @@
     "tumblr.com"
   ],
   "forceRuProxyDomains": [
+    "2ip.ru",
     "youtube.com",
     "youtu.be",
     "ytimg.com",
